@@ -5,8 +5,11 @@ using UnityEngine;
 public class PlayerBase : MonoBehaviour
 {
     [SerializeField] GameObject mainObject;
-    private void OnTriggerEnter2D(Collider2D collision)
+    EnumDefiner enumDefinerInstance= null;
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        mainObject.GetComponent<PlayerController>().isJumping = false;
+        enumDefinerInstance = col.GetComponent<EnumDefiner>();
+        if(enumDefinerInstance && enumDefinerInstance.GetTagType()== tagType.platform)
+            mainObject.GetComponent<PlayerController>().isJumping = false;
     }
 }
