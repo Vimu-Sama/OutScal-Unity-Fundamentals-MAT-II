@@ -40,26 +40,27 @@ public class PlayerController : MonoBehaviour
             }
             anim.SetBool("Run", true);
         }
+        
         transform.position = new Vector2(transform.position.x + getHorizontal*moveSpeed * Time.deltaTime, transform.position.y);
-        if(Input.GetKeyDown(KeyCode.Space) && !isJumping)
+
+        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
         {
             jump = new Vector3(0f, jmpSpeed);
             rb.AddForce(jump, ForceMode2D.Impulse);
             isJumping = true;
         }
         anim.SetBool("Jump", isJumping);
-        
-        if(Input.GetMouseButtonDown(0))
+
+        if (Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
 
     }
 
-
     void Shoot()
     {
-        Instantiate(bullet, bulletPos);
+        Instantiate(bullet, bulletPos.position, Quaternion.identity, this.gameObject.transform);
     }
 
 }

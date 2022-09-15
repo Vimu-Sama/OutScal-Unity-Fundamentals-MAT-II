@@ -132,4 +132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletLife: 5
   bulletSpeed: 10
-  ps: {fileID: 0}
+  prticleSystem: {fileID: 0}
+  TimeBetweenDisableAndDestroy: 1
+  playerController: {fileID: 8317220857302091991, guid: bd047a1aa9f30f64b9eefdff8cb893c4, type: 3}
