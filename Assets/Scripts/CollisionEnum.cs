@@ -5,5 +5,6 @@ public enum tagType
     boundary,
     door,
     platform,
-    bullet
+    bullet,
+    laser
 };
