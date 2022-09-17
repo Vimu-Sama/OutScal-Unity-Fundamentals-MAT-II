@@ -260,8 +260,8 @@ GameObject:
   m_Component:
   - component: {fileID: 58466873}
   - component: {fileID: 58466876}
-  - component: {fileID: 58466875}
   - component: {fileID: 58466874}
+  - component: {fileID: 58466875}
   m_Layer: 0
   m_Name: IntelCollect (1)
   m_TagString: Untagged
@@ -296,8 +296,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &58466875
-PolygonCollider2D:
+--- !u!61 &58466875
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -319,32 +319,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &58466876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -776,8 +753,8 @@ GameObject:
   m_Component:
   - component: {fileID: 200495557}
   - component: {fileID: 200495559}
-  - component: {fileID: 200495558}
   - component: {fileID: 200495560}
+  - component: {fileID: 200495558}
   m_Layer: 0
   m_Name: IntelCollect
   m_TagString: Untagged
@@ -799,8 +776,8 @@ Transform:
   m_Father: {fileID: 754262977}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &200495558
-PolygonCollider2D:
+--- !u!61 &200495558
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -822,32 +799,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &200495559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3147,8 +3101,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1044005311}
   - component: {fileID: 1044005314}
-  - component: {fileID: 1044005313}
   - component: {fileID: 1044005312}
+  - component: {fileID: 1044005313}
   m_Layer: 0
   m_Name: IntelCollect (6)
   m_TagString: Untagged
@@ -3183,8 +3137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &1044005313
-PolygonCollider2D:
+--- !u!61 &1044005313
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3206,32 +3160,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &1044005314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3293,8 +3224,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1072753857}
   - component: {fileID: 1072753860}
-  - component: {fileID: 1072753859}
   - component: {fileID: 1072753858}
+  - component: {fileID: 1072753859}
   m_Layer: 0
   m_Name: IntelCollect (5)
   m_TagString: Untagged
@@ -3329,8 +3260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &1072753859
-PolygonCollider2D:
+--- !u!61 &1072753859
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3352,32 +3283,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &1072753860
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3573,8 +3481,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1216888909}
   - component: {fileID: 1216888912}
-  - component: {fileID: 1216888911}
   - component: {fileID: 1216888910}
+  - component: {fileID: 1216888911}
   m_Layer: 0
   m_Name: IntelCollect (2)
   m_TagString: Untagged
@@ -3609,8 +3517,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &1216888911
-PolygonCollider2D:
+--- !u!61 &1216888911
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3632,32 +3540,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &1216888912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4364,8 +4249,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1590401485}
   - component: {fileID: 1590401488}
-  - component: {fileID: 1590401487}
   - component: {fileID: 1590401486}
+  - component: {fileID: 1590401487}
   m_Layer: 0
   m_Name: IntelCollect (4)
   m_TagString: Untagged
@@ -4400,8 +4285,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &1590401487
-PolygonCollider2D:
+--- !u!61 &1590401487
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4423,32 +4308,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &1590401488
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4588,8 +4450,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1739228779}
   - component: {fileID: 1739228782}
-  - component: {fileID: 1739228781}
   - component: {fileID: 1739228780}
+  - component: {fileID: 1739228781}
   m_Layer: 0
   m_Name: IntelCollect (8)
   m_TagString: Untagged
@@ -4624,8 +4486,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &1739228781
-PolygonCollider2D:
+--- !u!61 &1739228781
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4647,32 +4509,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &1739228782
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4861,8 +4700,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1802793656}
   - component: {fileID: 1802793659}
-  - component: {fileID: 1802793658}
   - component: {fileID: 1802793657}
+  - component: {fileID: 1802793658}
   m_Layer: 0
   m_Name: IntelCollect (9)
   m_TagString: Untagged
@@ -4897,8 +4736,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &1802793658
-PolygonCollider2D:
+--- !u!61 &1802793658
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4920,32 +4759,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &1802793659
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5201,8 +5017,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1897679159}
   - component: {fileID: 1897679162}
-  - component: {fileID: 1897679161}
   - component: {fileID: 1897679160}
+  - component: {fileID: 1897679161}
   m_Layer: 0
   m_Name: IntelCollect (7)
   m_TagString: Untagged
@@ -5237,8 +5053,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &1897679161
-PolygonCollider2D:
+--- !u!61 &1897679161
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5260,32 +5076,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &1897679162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5693,8 +5486,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2019649445}
   - component: {fileID: 2019649448}
-  - component: {fileID: 2019649447}
   - component: {fileID: 2019649446}
+  - component: {fileID: 2019649447}
   m_Layer: 0
   m_Name: IntelCollect (3)
   m_TagString: Untagged
@@ -5729,8 +5522,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfObject: 7
---- !u!60 &2019649447
-PolygonCollider2D:
+--- !u!61 &2019649447
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5752,32 +5545,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5918314, y: -0.12387099}
-      - {x: 0.615516, y: 0.0555432}
-      - {x: 0.685516, y: 0.4955432}
-      - {x: 0.6973096, y: 0.64891356}
-      - {x: 0.6596192, y: 0.6578272}
-      - {x: 0.4891032, y: 0.6467408}
-      - {x: -0.225, y: 0.63674074}
-      - {x: -0.315, y: 0.6311975}
-      - {x: -0.2801353, y: 0.59999996}
-      - {x: -0.32961923, y: 0.28}
-      - {x: -0.35551602, y: 0.0644568}
-      - {x: -0.3773096, y: -0.0710864}
-      - {x: -0.625, y: -0.26}
-      - {x: -0.715, y: -0.35}
-      - {x: -0.715, y: -0.39}
-      - {x: -0.705, y: -0.42}
-      - {x: -0.655, y: -0.45}
-      - {x: -0.585, y: -0.47}
-      - {x: 0.024999999, y: -0.64}
-      - {x: 0.16499999, y: -0.68}
-      - {x: 0.24320641, y: -0.68554324}
-      - {x: 0.305, y: -0.63}
-      - {x: 0.375, y: -0.51}
-      - {x: 0.56603205, y: -0.1621728}
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!212 &2019649448
 SpriteRenderer:
   m_ObjectHideFlags: 0

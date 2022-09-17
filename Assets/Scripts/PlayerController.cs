@@ -72,6 +72,7 @@ public class PlayerController : MonoBehaviour
         }
         else if(tagofTrigger== tagType.intelCollectible)
         {
+            col.GetComponent<BoxCollider2D>().enabled = false;
             gameManager.UpdateIntelCount();
             Destroy(col.gameObject);
         }
