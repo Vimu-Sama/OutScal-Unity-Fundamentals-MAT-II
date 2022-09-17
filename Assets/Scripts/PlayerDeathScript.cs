@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerDeathScript : MonoBehaviour
 {
     [SerializeField] float TimeBetweenDeleteAndDisable=2f;
+    [SerializeField] GameObject GameOverPanel;
     WaitForSeconds waitForSeconds;
 
     private void Start()
@@ -26,6 +27,7 @@ public class PlayerDeathScript : MonoBehaviour
     IEnumerator KillPlayer()
     {
         yield return waitForSeconds;
+        GameOverPanel.SetActive(true);
         Destroy(gameObject);
     }
 }
