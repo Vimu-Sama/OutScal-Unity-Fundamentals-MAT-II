@@ -44,7 +44,7 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         checkEnum = collision.GetComponent<EnumDefiner>();
-        if (checkEnum && checkEnum.GetTagType() != tagType.player)
+        if (checkEnum && checkEnum.GetTagType() != tagType.player && checkEnum.GetTagType()!= tagType.intelCollectible)
         {
             BulletDestroy();
         }
@@ -60,6 +60,8 @@ public class Bullet : MonoBehaviour
             this.GetComponent<SpriteRenderer>().enabled = false;
             this.GetComponent<PolygonCollider2D>().enabled = false;
             this.GetComponent<Bullet>().bulletSpeed = 0f;
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
+            prticleSystem.Play();
             StartCoroutine(DestroyMain());
         }
         
@@ -67,9 +69,6 @@ public class Bullet : MonoBehaviour
 
     IEnumerator DestroyMain()
     {
-        //here need for particle system
-        transform.localScale =new Vector2(Mathf.Abs(transform.localScale.x),transform.localScale.y);
-        prticleSystem.Play();
         yield return waitForSeconds;
         Destroy(gameObject);
     }

@@ -6,5 +6,6 @@ public enum tagType
     door,
     platform,
     bullet,
-    laser
+    laser,
+    intelCollectible
 };

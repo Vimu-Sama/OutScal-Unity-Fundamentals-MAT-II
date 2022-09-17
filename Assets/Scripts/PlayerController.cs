@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     [Header("Firing")]
     [SerializeField] GameObject bullet;
     [SerializeField] Transform bulletPos;
+    [SerializeField] GameManagerScript gameManager;
+    tagType tagofTrigger;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -58,6 +60,23 @@ public class PlayerController : MonoBehaviour
 
     }
 
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (!col.GetComponent<EnumDefiner>())
+            return ;
+        tagofTrigger = col.GetComponent<EnumDefiner>().GetTagType();
+        if ((tagofTrigger== tagType.enemy || tagofTrigger==tagType.laser))
+        {
+            GetComponent<PlayerDeathScript>().DisablePlayer();
+        }
+        else if(tagofTrigger== tagType.intelCollectible)
+        {
+            gameManager.UpdateIntelCount();
+            Destroy(col.gameObject);
+        }
+
+    }
     void Shoot()
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity, this.gameObject.transform);
